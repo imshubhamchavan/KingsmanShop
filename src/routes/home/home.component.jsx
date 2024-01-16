@@ -30,8 +30,8 @@ const Home = () => {
             "id": 5,
             "title": "Gentleman",
             // "imageUrl": "https://i.ibb.co/R70vBrQ/men.png"
-            //  imageUrl: "https://wallpapercave.com/dwp1x/wp2812022.jpg"
-             imageUrl:"https://wallpapercave.com/dwp1x/wp4038415.jpg"
+              imageUrl: "https://wallpapercave.com/dwp1x/wp2812022.jpg"
+            // imageUrl:"https://wallpapercave.com/dwp1x/wp4038415.jpg"
         }
     ]
     

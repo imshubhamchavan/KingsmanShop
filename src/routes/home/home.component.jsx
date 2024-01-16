@@ -24,17 +24,17 @@ const Home = () => {
             "id": 4,
             "title": "Ladies",
             // "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
-            imageUrl:"https://wallpapercave.com/dwp1x/wp4038332.jpg"
+            imageUrl: "https://wallpapercave.com/dwp1x/wp4038332.jpg"
         },
         {
             "id": 5,
             "title": "Gentleman",
             // "imageUrl": "https://i.ibb.co/R70vBrQ/men.png"
-              imageUrl: "https://wallpapercave.com/dwp1x/wp2812022.jpg"
-            // imageUrl:"https://wallpapercave.com/dwp1x/wp4038415.jpg"
+            // imageUrl: "https://wallpapercave.com/dwp1x/wp2812022.jpg"
+            imageUrl: "https://wallpapercave.com/dwp1x/wp4038415.jpg"
         }
     ]
-    
+
     return (
         <div>
             <Outlet />

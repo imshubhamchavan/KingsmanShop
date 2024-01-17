@@ -1,4 +1,5 @@
 ![Screenshot 2024-01-17 231744](https://github.com/imshubhamchavan/KingsmanShop/assets/112066597/1ade7055-ce71-40fe-b1f8-9c42f30d6f2b)
+![Screenshot 2024-01-17 232146](https://github.com/imshubhamchavan/KingsmanShop/assets/112066597/5e5b4b41-9e75-45ff-8f3a-aee35a296d3f)
 
 # KingsmanShop
 

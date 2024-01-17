@@ -8,6 +8,7 @@ import { UserProvider } from './contexts/user.context';
 import { CartProvider } from './contexts/cart.context';
 import { ProductsProvider } from './contexts/product.context';
 import reportWebVitals from './reportWebVitals';
+import Footer from './routes/footer/footer.component';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     <UserProvider>
       <ProductsProvider>
         <CartProvider>
-      <App />
+          <App />
+    <Footer/>
         </CartProvider>
       </ProductsProvider>
     </UserProvider>

@@ -3,6 +3,7 @@ import { ProductsContext } from "../../contexts/product.context";
 import ProductCard from "../../components/product-card/product-card.component";
 import "./shop.style.scss";
 
+
 const Shop = () => {
     const { products } = useContext(ProductsContext);
   
@@ -14,5 +15,6 @@ const Shop = () => {
       </div>
     );
   };
+  
   
   export default Shop;

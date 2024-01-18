@@ -1,8 +1,23 @@
-<<<<<<< HEAD
+## Home Page
+![Screenshot 2024-01-17 231744](https://github.com/imshubhamchavan/KingsmanShop/assets/112066597/1ade7055-ce71-40fe-b1f8-9c42f30d6f2b)
+## LogIn Page
+![Screenshot 2024-01-17 232146](https://github.com/imshubhamchavan/KingsmanShop/assets/112066597/5e5b4b41-9e75-45ff-8f3a-aee35a296d3f)
+
 # KingsmanShop
-full-stack e-commerce website
-=======
-# Getting Started with Create React App
+
+KingsmanShop is an e-commerce website that has clothing products. There is a cart where you can see added items and edit, add, or remove them.
+## Functionality Overview
+Below is a comprehensive overview of the functionalities that the website offers:
+
+### Managing Your Cart
+Add and Remove Products: The website allows you to easily add products to your shopping cart with just a few clicks. You can also remove items from your cart when you change your mind or no longer wish to purchase them.
+
+Adjust Quantity: In addition to adding and removing items, you have the flexibility to change the quantity of products in your cart. Whether you want one more of your favorite item or need to reduce the quantity, it's a breeze.
+
+Cart Overlay: There is a convenient cart overlay that displays a summary of the items currently in your cart. This allows you to keep track of your selected items without navigating away from your shopping experience.
+
+Product Attributes: When reviewing your cart or cart overlay, you'll find detailed information about each product, including selected size and other relevant attributes. This ensures you have a clear understanding of your choices before proceeding to checkout.
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -13,16 +13,16 @@ import Footer from './routes/footer/footer.component';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+
     <BrowserRouter>
-    <UserProvider>
-      <ProductsProvider>
-        <CartProvider>
-          <App />
-    <Footer/>
-        </CartProvider>
-      </ProductsProvider>
-    </UserProvider>
+      <UserProvider>
+        <ProductsProvider>
+          <CartProvider>
+            <App />
+            <Footer />
+          </CartProvider>
+        </ProductsProvider>
+      </UserProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

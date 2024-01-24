@@ -5,7 +5,7 @@
 
 # KingsmanShop
 
-KingsmanShop is an e-commerce website that has clothing products. There is a cart where you can see added items and edit, add, or remove them.
+Kingsman Shop is a full-stack e-commerce website that is able to handle and integrate secure payments, routs, noSQL database, and OAuth. The goal was to use the project as a boiler-plate for future similar work. Allows customers to browse, search, and buy a variety of products from different categories.
 ## Functionality Overview
 Below is a comprehensive overview of the functionalities that the website offers:
 

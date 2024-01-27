@@ -2,9 +2,13 @@ import { useContext } from "react";
 import { ProductsContext } from "../../contexts/product.context";
 import ProductCard from "../../components/product-card/product-card.component";
 import "./shop.style.scss";
+import { useEffect } from "react";
 
 
 const Shop = () => {
+  useEffect(() => {
+    document.title = "Shop | Kingsman shop";
+  })
     const { products } = useContext(ProductsContext);
   
     return (

@@ -5,16 +5,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(240, 227, 227, 0);
+  border: 1px solid rgb(24, 23, 23);
   margin: 0 7.5px 15px;
   overflow: hidden;
-  border-radius: 8px;
+  
+  
 
   &:hover {
     cursor: pointer;
-    border-radius: 15px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
+    // border-radius: 15px;
+    // transition: all .4s ease;
+    // -webkit-transition: all .4s ease;
 
     & .background-image {
       transform: scale(1.1);

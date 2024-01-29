@@ -6,7 +6,7 @@ import './index.scss';
 import App from './App';
 import { UserProvider } from './contexts/user.context';
 import { CartProvider } from './contexts/cart.context';
-import { ProductsProvider } from './contexts/product.context';
+import { CategoriesProvider } from './contexts/categories.context';
 import reportWebVitals from './reportWebVitals';
 import Footer from './routes/footer/footer.component';
 
@@ -16,13 +16,13 @@ root.render(
 
     <BrowserRouter>
       <UserProvider>
-        <ProductsProvider>
+        <CategoriesProvider>
           <CartProvider>
             <App />
+            <Footer />
           </CartProvider>
-        </ProductsProvider>
+        </CategoriesProvider>
       </UserProvider>
-      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -1,11 +1,12 @@
 .footer-section {
-    position: relative;
+    //  position:-ms-page;
     text-align: center;
     bottom:0%;
     width: -webkit-fill-available;
     height: 2.5rem;
     margin-top: auto;
-
+    padding-top: 20px;
+    margin-bottom: 20px;
 
     .copyright-section {
         color: #acacac;

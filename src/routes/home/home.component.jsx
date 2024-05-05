@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Directory from "../../components/directory/directory.components";
 import { useEffect } from "react";
+import Shop from "../shop/shop.component";
 
 
 
@@ -39,12 +40,14 @@ const Home = () => {
             // imageUrl: "https://wallpapercave.com/dwp1x/wp2812022.jpg"
             imageUrl: "https://wallpapercave.com/dwp1x/wp4038415.jpg"
         }
-    ]
+    ]   
 
     return (
         <div>
             <Outlet />
             <Directory categories={categories} />
+            <h1>hello there</h1>
+            {/* <Shop/> */}
         </div>
 
     );

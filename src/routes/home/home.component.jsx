@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Directory from "../../components/directory/directory.components";
 import { useEffect } from "react";
-import Shop from "../shop/shop.component";
+
 
 
 
@@ -46,8 +46,7 @@ const Home = () => {
         <div>
             <Outlet />
             <Directory categories={categories} />
-            <h1>hello there</h1>
-            {/* <Shop/> */}
+            
         </div>
 
     );
